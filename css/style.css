@@ -45,3 +45,78 @@ header#cabecalho-principal {
     font-size: 27px;
     margin-right:20px ;
 }
+
+section#corpo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px
+}
+
+section#corpo div#direita{
+     
+   
+}
+
+section#corpo div#esquerda{
+
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  
+    align-items: center;
+  
+  
+  }
+section#corpo div#esquerda div#cor-atual{
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+  
+    border: 10px solid black;
+    border-radius: 15px;
+  
+  }
+
+section#corpo div#esquerda button#btn-responder{
+
+    background-color: transparent;
+    margin-top: 10px;
+  
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    padding: 15px 45px;
+  
+  }
+
+  footer#rodape {
+      background-color: #262632;
+      position: fixed;
+      bottom: 0px;
+      width: 100%;
+
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+     
+     
+  }
+
+  footer#rodape div#dir {
+    position: relative;
+    margin-left: 200px;
+    color: white;
+  }
+
+  footer#rodape div#dir a {
+      color: white;
+      padding-top: 100px;
+      text-align: left;
+  }
